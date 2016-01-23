@@ -14,8 +14,8 @@ function fizzbuzz(num, fizz, buzz) {
        } else if (i % fizz === 0) {
            console.log("Fizz");
        } else {
-				 console.log(i);
-			 }  
+	   console.log(i);
+       }  
    }  
 }    
 
