@@ -5,14 +5,15 @@ Write a program that creates a string that represents an 8×8 grid, using newlin
 
 Passing this string to console.log should show something like this:
 
- # # # #
-# # # #
- # # # #
-# # # #
- # # # #
-# # # #
- # # # #
-# # # #
+ 0 0 0 0
+0 0 0 0
+ 0 0 0 0
+0 0 0 0
+ 0 0 0 0
+0 0 0 0
+ 0 0 0 0
+0 0 0 0
+
 When you have a program that generates this pattern, define a variable size = 8 and change the program so that it works for any size, outputting a grid of the given width and height.
 
 My solution:
@@ -39,7 +40,7 @@ checkerMaker(8, " #");
 ```
 I knew I was repeating myself when I wrote the second inner for loop...
 
-Marijn Haverbeke's solution: 
+Marijn Haverbeke's solution (I took the liberty to pass symbol1 and symbol2 as args): 
 ```javascript
 function checkerMaker(size, symbol1, symbol2) {
 var board = "";
